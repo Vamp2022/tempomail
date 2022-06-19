@@ -1,0 +1,70 @@
+Last login: Sun Jun 19 07:48:55 on ttys000
+Petters-iMac:~ petterpettersen$ cp /usr/share/wordlists/rockyou.txt.gz .
+cp: /usr/share/wordlists/rockyou.txt.gz: No such file or directory
+Petters-iMac:~ petterpettersen$ cp /usr/share/wordlists/rockyou.txt.gz .
+cp: /usr/share/wordlists/rockyou.txt.gz: No such file or directory
+Petters-iMac:~ petterpettersen$ /usr/share/wordlists/rockyou.txt.gz
+-bash: /usr/share/wordlists/rockyou.txt.gz: No such file or directory
+Petters-iMac:~ petterpettersen$ brew install --cask 1password/tap/1password-cli
+Running `brew update --auto-update`...
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+==> Auto-updated Homebrew!
+Updated 1 tap (homebrew/core).
+==> New Formulae
+adamstark-audiofile        eget                       markdown-toc               pacmc                      swtpm
+astro                      flock                      mcap                       phrase-cli                 synergy-core
+cfonts                     install-peerdeps           oak                        poac                       toxcore
+dump1090-mutability        maclaunch                  opencl-headers             redis@6.2                  zx
+
+==> Tapping 1password/tap
+Cloning into '/usr/local/Homebrew/Library/Taps/1password/homebrew-tap'...
+remote: Enumerating objects: 47, done.
+remote: Counting objects: 100% (47/47), done.
+remote: Compressing objects: 100% (30/30), done.
+remote: Total 47 (delta 12), reused 35 (delta 7), pack-reused 0
+Receiving objects: 100% (47/47), 14.29 KiB | 443.00 KiB/s, done.
+Resolving deltas: 100% (12/12), done.
+Tapped 1 cask (14 files, 22.2KB).
+==> Downloading https://cache.agilebits.com/dist/1P/op2/pkg/v2.4.1/op_apple_universal_v2.4.1.pkg
+######################################################################## 100.0%
+==> Installing Cask 1password-cli
+==> Running installer for 1password-cli; your password may be necessary.
+Package installers may write to any location; options such as `--appdir` are ignored.
+Password:
+  [Gjenopprettet 19. jun. 2022, 12:53:15]
+Last login: Sun Jun 19 09:11:36 on ttys001
+Restored session: Sun Jun 19 10:45:07 CEST 2022
+Petters-iMac:~ petterpettersen$ ▶ # download release from https://github.com/kavishgr/tempomail/releases/
+-bash: ▶: command not found
+Petters-iMac:~ petterpettersen$ ▶ tar -xzvf linux-amd64-tempomail.tgz
+-bash: ▶: command not found
+Petters-iMac:~ petterpettersen$ ▶ mv tempomail /usr/local/bin/
+-bash: ▶: command not found
+Petters-iMac:~ petterpettersen$ ▶ tempomail -h
+-bash: ▶: command not found
+Petters-iMac:~ petterpettersen$ git clone https://github.com/kavishgr/tempomail.git
+Cloning into 'tempomail'...
+remote: Enumerating objects: 76, done.
+remote: Counting objects: 100% (76/76), done.
+remote: Compressing objects: 100% (70/70), done.
+remote: Total 76 (delta 33), reused 14 (delta 5), pack-reused 0
+Receiving objects: 100% (76/76), 1.04 MiB | 679.00 KiB/s, done.
+Resolving deltas: 100% (33/33), done.
+Petters-iMac:~ petterpettersen$ cd tempomail
+Petters-iMac:tempomail petterpettersen$ go build .
+-bash: go: command not found
+Petters-iMac:tempomail petterpettersen$ mv tempomail /usr/local/bin/ #OR $HOME/go/bin
+mv: rename tempomail to /usr/local/bin/tempomail: No such file or directory
+Petters-iMac:tempomail petterpettersen$ tempomail -hUsage of tempomail:
+-bash: tempomail: command not found
+Petters-iMac:tempomail petterpettersen$   -path string
+-bash: -path: command not found
+Petters-iMac:tempomail petterpettersen$     specify directory to store emails (default "/tmp/1secmails/")
+-bash: syntax error near unexpected token `('
+Petters-iMac:tempomail petterpettersen$ /tmp/1secmails/
+-bash: /tmp/1secmails/: is a directory
+Petters-iMac:https://www.1secmail.com/api/v1/
+Open:
+https://www.1secmail.com/api/v1/
+
